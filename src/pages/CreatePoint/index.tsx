@@ -245,7 +245,6 @@ const CreatePoint = () => {
                 className={selectedItems.includes(item.id) ? 'selected' : ''}
                 >
                 <img src={item.image_url} alt={item.title}/>
-                <span>{item.title}</span>
               </li>
             ))}
           </ul>
