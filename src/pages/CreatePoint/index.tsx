@@ -110,8 +110,8 @@ const CreatePoint = () => {
     event.preventDefault()
 
     const { name, email, whatsapp} = formData
-    const uf = selectedUf || 'SP'
-    const city = selectedCity || 'São Paulo'
+    const uf = selectedUf 
+    const city = selectedCity
     const [latitude, longitude] = selectedPosition
     const items = selectedItems
 
